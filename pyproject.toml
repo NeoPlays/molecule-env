@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "molecule-env"
+version = "0.1.0"
+description = ""
+authors = ["NeoPlays <80448387+NeoPlays@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ansible = "5.10.0"
+molecule = "5.0.1"
+molecule-docker = "^2.1.0"
+molecule-hetznercloud = "^2.3.0"
+docker = "^7.1.0"
+hcloud = "^2.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs]
+in-project = true
