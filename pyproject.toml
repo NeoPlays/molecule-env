@@ -7,8 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-ansible = "5.10.0"
-molecule = "5.0.1"
+ansible = "^10.3.0"
+molecule = {extras = ["docker-lint"], version = "^24.8.0"}
 molecule-docker = "^2.1.0"
 molecule-hetznercloud = "^2.3.0"
 docker = "^7.1.0"
