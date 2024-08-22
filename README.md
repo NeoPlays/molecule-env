@@ -13,9 +13,9 @@ poetry shell    # Activate the virtual environment
 poetry install  # Install dependencies
 ansible-galaxy collection install community.docker -p .venv/lib/python3.10/site-packages/ansible_collections
 ```
-If you run tests on a hetzner cloud server, you need to set the `HLCOUD_TOKEN` environment variable.
+If you run tests on a hetzner cloud server, you need to set the `HCLOUD_TOKEN` environment variable.
 ```
-export HLCOUD_TOKEN=<your_hcloud_token>
+export HCLOUD_TOKEN=<your_hcloud_token>
 ```
 ### Your Project
 Manage your dependencies with the following commands:
